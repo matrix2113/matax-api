@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+        <link rel="shortcut icon" href="static/favicon.ico">
+		<title>kyb3r</title>
+
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="/static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="/static/css/animate.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+	</head>
+
+	<body>
+
+    <div class='navbar-fixed'>
+        <nav class="lighten-1" role="navigazion">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="https://kybr.tk" class="brand-logo">
+                    <i class="material-icons" id='dash'>home</i>
+                </a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="https://kybr.tk/discord" class="waves-effect">Discord
+                            <img class='nav-icon' width='25px' src="/static/images/discord-logo.svg">
+                        </a>
+                    </li>
+
+                </ul>
+                <a href="https://kybr.tk" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <ul id="nav-mobile" class="side-nav">
+
+        <li><a href="https://kybr.tk/discord" class="waves-effect"><span class="grey-text">Discord</span></a></li>
+    </ul>
+
+<main>
+
+<div class="vertical-align-middle container">
+    <div class="center card-panel hoverable" id='main-card'>
+        <h1 class="animated jackInTheBox header" id='dashbots'>{{ title }}</h1>
+        <h5 class="header light grey-text">{{ message }}</h5>
+        <br>
+    </div>
+</div>
+
+</main>
+		<!--  Scripts-->
+		<script src="/static/js/sweetalert.all.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+		<script src="/static/js/materialize.min.js"></script>
+		<script src="/static/js/init.js"></script>
+
+	</body>
+</html>
